@@ -7,7 +7,7 @@ on:
     branches:
       - "**"
   pull_request:
-    branches: [develop]
+    branches: [debug]
     types: [opened, reopened, synchronize]
 
 permissions:
